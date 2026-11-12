@@ -10,6 +10,8 @@ description: A Roblox Studio plugin that draws roads and rails, places buildings
 
 City Builder is a Roblox Studio plugin for making cities. You can draw one road at a time, place one building at a time, or generate a whole city from a real map and then keep editing it by hand.
 
+[Get City Builder on the Creator Store](https://create.roblox.com/store/asset/136382184501618).
+
 ![A generated city with towers, courtyard blocks, a river and an arch bridge](./img/city-hero.jpg)
 
 ## What is in it
