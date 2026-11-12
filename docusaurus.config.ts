@@ -160,7 +160,7 @@ const config: Config = {
 					label: "More plugins",
 				},
 				{
-					href: "https://trimatech.dev/en/plugins",
+					href: "https://trimatech.dev/en#plugins",
 					label: "trimatech.dev",
 					position: "right",
 				},
@@ -186,7 +186,7 @@ const config: Config = {
 				},
 				{
 					title: "More",
-					items: [{ label: "All plugins", href: "https://trimatech.dev/en/plugins" }],
+					items: [{ label: "All plugins", href: "https://trimatech.dev/en#plugins" }],
 				},
 			],
 			copyright: `Copyright © ${new Date().getFullYear()} Trimatech Games.`,
