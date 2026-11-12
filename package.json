@@ -1,0 +1,49 @@
+{
+  "name": "trimatech-docs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "import-docs": "node --experimental-strip-types scripts/import-trimatech-docs.ts",
+    "sync": "sh scripts/sync-content.sh",
+    "start": "DOCS_LOCAL=1 docusaurus start",
+    "build": "docusaurus build",
+    "build:local": "DOCS_LOCAL=1 docusaurus build",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.10.2",
+    "@docusaurus/faster": "3.10.2",
+    "@docusaurus/preset-classic": "3.10.2",
+    "@easyops-cn/docusaurus-search-local": "^0.52.1",
+    "@mdx-js/react": "^3.0.0",
+    "clsx": "^2.0.0",
+    "prism-react-renderer": "^2.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "3.10.2",
+    "@docusaurus/tsconfig": "3.10.2",
+    "@docusaurus/types": "3.10.2",
+    "@types/node": "^22.0.0",
+    "typescript": "~5.6.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=22.6"
+  },
+  "packageManager": "pnpm@9.15.3"
+}

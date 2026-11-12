@@ -1,0 +1,74 @@
+[
+	{
+		"slug": "click-to-build",
+		"name": "Click to Build",
+		"version": "1.18",
+		"summary": "Build shapes, paths, walls and modular structures by clicking in the viewport.",
+		"docsPath": "/click-to-build/intro",
+		"storeUrl": "https://create.roblox.com/store/asset/125786968176382"
+	},
+	{
+		"slug": "city-builder",
+		"name": "City Builder",
+		"version": "1.5",
+		"summary": "Draw roads, rails and junctions, place buildings that resize, and generate a whole city from a map or from a seed.",
+		"docsPath": "/city-builder/",
+		"storeUrl": "https://create.roblox.com/store/asset/136382184501618"
+	},
+	{
+		"slug": "perf-auditor",
+		"name": "Perf Auditor",
+		"version": "0.4",
+		"summary": "Perf Auditor has three views in one dockable panel: Audit scans the place for problems, Live shows engine stats while you play, and Network logs remote traffic.",
+		"docsPath": "/plugins/perf-auditor",
+		"storeUrl": "https://create.roblox.com/store/asset/115623728130733"
+	},
+	{
+		"slug": "super-aligner",
+		"name": "Super Aligner",
+		"version": "0.3",
+		"summary": "Select parts, models or folders, pick an axis, hover a tool to preview it as translucent ghosts, and click. Every operation lands in one undo step.",
+		"docsPath": "/plugins/super-aligner",
+		"storeUrl": "https://create.roblox.com/store/asset/98043920579002"
+	},
+	{
+		"slug": "terrain-tools",
+		"name": "Terrain Tools",
+		"version": "1.2",
+		"summary": "Select parts or a whole model, pick a tool, and check the see-through preview before you apply. Green is terrain that will be added, red is terrain that will be removed. Everything is one undo step.",
+		"docsPath": "/plugins/terrain-tools",
+		"storeUrl": "https://create.roblox.com/store/asset/121693306028761"
+	},
+	{
+		"slug": "voxelizer",
+		"name": "Voxelizer",
+		"version": "1.6",
+		"summary": "Pick a part, model or union, set the block size, press Generate. The result lands in place or beside the original with one undo for the lot.",
+		"docsPath": "/plugins/voxelizer",
+		"storeUrl": "https://create.roblox.com/store/asset/101736114589503"
+	},
+	{
+		"slug": "icon-snap",
+		"name": "Icon Snap",
+		"version": "1.9",
+		"summary": "Select models or folders of models, press Snap, and every model becomes a transparent PNG icon named after it. Icons can stream straight to disk, upload to Roblox, or export by hand.",
+		"docsPath": "/plugins/icon-snap",
+		"storeUrl": "https://create.roblox.com/store/asset/110634454048264"
+	},
+	{
+		"slug": "quick-actions",
+		"name": "Quick Actions",
+		"version": "0.4",
+		"summary": "A home for the small Luau snippets that are not worth a whole plugin. Save one with a name and icon, run it on your selection, or pin it to the Studio toolbar.",
+		"docsPath": "/plugins/quick-actions",
+		"storeUrl": "https://create.roblox.com/store/asset/125216167900972"
+	},
+	{
+		"slug": "npc-outfit-creator",
+		"name": "NPC Outfit Creator",
+		"version": "1.5",
+		"summary": "Build NPC outfits from Marketplace asset ids with a live rig preview. No HumanoidDescription editing by hand.",
+		"docsPath": "/plugins/npc-outfit-creator",
+		"storeUrl": "https://create.roblox.com/store/asset/130088527626653"
+	}
+]
