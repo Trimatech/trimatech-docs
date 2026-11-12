@@ -4,6 +4,8 @@ sidebar_position: 7
 description: Lay a whole circuit from a layout, bank its corners, and add a start line, sectors, curbs and walls.
 ---
 
+![A club circuit seen from above, with gravel traps and tire walls around its corners](../img/race-overview.jpg)
+
 A race track is a road of the **Race track** type. It joins the rest of the road network, so a circuit can share a junction with a city street. **Pit lane** is its narrower companion.
 
 ## Lay a whole track
@@ -24,6 +26,8 @@ You can also draw a track by hand. Pick **Race track** under **Road** and draw i
 ## Start line and sectors
 
 Both are items under **Add items**. Click a track to place one and click it again to remove it.
+
+![The start line with its gantry, grid slots, guardrails and braking boards](../img/race-start.jpg)
 
 The start line comes with 12 grid slots behind it. A sector line ends a sector where you click. A track laid from a layout gets sectors 1 and 2 at a third and two thirds of its lap.
 

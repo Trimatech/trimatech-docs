@@ -6,6 +6,10 @@ description: Draw a building on any outline, reshape it by its corners, and cut 
 
 A polygon building stands on any outline you draw, convex or not. It borrows its walls, storey height and roof from one of the catalog's buildings.
 
+![Tallinn's Old Town, where every building stands on its mapped outline](../img/tallinn-aerial.jpg)
+
+*Polygon buildings on real outlines. The City Generator uses them for every mapped building.*
+
 ## Draw one
 
 1. Pick the **Polygon building** tile.
@@ -36,7 +40,11 @@ Each side gets a run of wall pieces, stretched a little along the wall so whole 
 
 A **Hole** model subtracts its box from the buildings it touches. Place one on a building, or move one into it, and the building re-bakes with the opening.
 
-![A red hole box cutting a section out of a brick building](../img/hole-b.jpg)
+| Before | With a Hole model |
+| :-: | :-: |
+| ![A five-storey brick building](../img/hole-before.jpg) | ![The same building with a two-storey passage cut through it](../img/hole-after.jpg) |
+
+*The red box is the Hole model. The building re-bakes around it and lines the passage with walls.*
 
 - On a detailed building, the cells the hole covers are left out. A hole that reaches deep inside is lined with walls and a ceiling.
 - On a facade or graybox building, the opening is cut exactly where the box stands.
@@ -45,6 +53,8 @@ A **Hole** model subtracts its box from the buildings it touches. Place one on a
 Use a hole for a gateway to a courtyard or a street-level passage. Generated cities do this themselves: where a block's buildings close in its courtyard, one or two of them get a passage named Tunnel.
 
 ## Gardens and parks
+
+![Three houses, each inside a hedged garden with a path to its door](../img/gardens.jpg)
 
 The **Garden** entry is a model that goes around a house: a lawn, a hedge around the parcel, a path from the front door, and plants along the walls. Hover a house while placing a garden and the ghost fits itself to the house. Selecting a placed garden shows corner handles on the ground for reshaping it, the same way a polygon building does.
 

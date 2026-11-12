@@ -29,6 +29,10 @@ end
 
 For a day and night cycle, call the same loop with `false` at sunrise.
 
+![A city street at night with its street lamps switched on](./img/night-street-lights.jpg)
+
+*The Night lighting preset with every `CityLight` switched on.*
+
 ## Tags
 
 | Tag | On | Notes |
@@ -59,6 +63,10 @@ Game stops are plain Models in the city's `Stops` folder.
 | `CitySpot`, `CitySpot:<Kind>` | The building behind the stop. |
 
 Doors on stop buildings are shut. Your game opens them.
+
+![A police station stop with two patrol cars parked in its yard](./img/stop-police.jpg)
+
+*A police station stop. Its patrol bays are tagged `ParkingSpot:Police`.*
 
 ## Race tracks
 

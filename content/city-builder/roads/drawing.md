@@ -16,7 +16,7 @@ The **Roads** tile of the City Builder dock holds every road tool. **Action** pi
 | **Add items** | Puts crosswalks, bus stops, signs and driveways on a road. |
 | **Remove** | Deletes the segment you click. |
 
-![Roads over part ground with a tunnel, a bridge deck and a roundabout](../img/road-05.jpg)
+![Roads on terrain: an overpass on piers, a tunnel through a hill, a roundabout and a bridge over a river](../img/roads-network.jpg)
 
 ## Draw a road
 
@@ -25,6 +25,8 @@ The **Roads** tile of the City Builder dock holds every road tool. **Action** pi
 3. Click where it ends for a straight road, or hold the button and drag to bend it into a curve.
 4. Keep clicking to continue the chain. Each click ends one road and starts the next.
 5. Press **Esc** to end the chain, and **Esc** again to stop the road builder.
+
+<video src={require("../img/draw-roads.mp4").default} poster={require("../img/draw-roads-poster.jpg").default} autoPlay loop muted playsInline controls style={{ width: "100%", borderRadius: 8 }} />
 
 **C** switches between straight and curved roads. While **Straight roads** is on, holding the button lays that one road curved, and the other way round.
 

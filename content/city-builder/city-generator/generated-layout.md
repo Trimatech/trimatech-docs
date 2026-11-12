@@ -8,6 +8,8 @@ Set **Source** to **Generated** and the City Generator makes its own street layo
 
 The whole layout is one step, **Lay out city**. The map in the dock redraws on every change.
 
+<img src={require("../img/dock-generated-layout.png").default} alt="The City Generator dock with Source set to Generated, showing the layout map and the Blocks and Zoning groups" width="360" />
+
 ## Streets and districts
 
 | Setting | Options |
@@ -34,6 +36,12 @@ The whole layout is one step, **Lay out city**. The map in the dock redraws on e
 | **Roundabouts where avenues cross** | Each crossing of two avenues becomes a two-lane roundabout. The four blocks around it lose their corner lots. |
 
 Rivers and seas are dug as water on Terrain ground. Part ground leaves a river as a green strip and the shore dry.
+
+| From above | With a coast |
+| :-: | :-: |
+| ![A generated layout from straight above: a grid of blocks split by a river, with roundabouts and ponds](../img/city-plan.jpg) | ![The same city seen from the sea](../img/city-coast.jpg) |
+
+*An organic layout of 7 by 5 blocks with a river, a coast, ponds and roundabouts.*
 
 ## Land shape
 

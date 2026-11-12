@@ -20,6 +20,12 @@ A bundle is the kit a city is built from. It holds:
 | **Cartoony** | Part-built buildings in bright themes, low-poly gardens, round trees, plinths. |
 | **Low detail** | Plain part-built buildings, sparse trees, no gardens or street furniture. |
 
+| Realistic | Cartoony | Low detail |
+| :-: | :-: | :-: |
+| ![A city in the Realistic bundle](../img/bundle-realistic.jpg) | ![The same layout in the Cartoony bundle](../img/bundle-cartoony.jpg) | ![The same layout in the Low detail bundle](../img/bundle-low-detail.jpg) |
+
+*One layout and one seed in each built-in bundle.*
+
 ## Make your own
 
 The built-in bundles cannot be changed. In the **Bundles** section, press **Duplicate** on one and edit the copy. The copy is saved in the place under `ServerStorage.CityBuilderBundles`.

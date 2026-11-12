@@ -6,7 +6,7 @@ description: Pick a building from the shelves, place it, resize it, and join bui
 
 The **Buildings** tile holds the catalog. Buildings are grouped on shelves by what they are for, and the search box at the top finds one by name.
 
-![A brick apartment block with fire escape, air conditioners and window plants](../img/bld-3.jpg)
+![Eleven catalog buildings in a row, from glass towers through apartment blocks to houses](../img/buildings-lineup.jpg)
 
 ## Place a building
 
@@ -32,6 +32,10 @@ Each ghost rolls its own color theme, so a street built from one entry does not 
 | Parks & transport | Park, parking lot, arch bridge. |
 | Game stops | Gas station, garage, car wash, paint shop, pharmacy, hardware store, supermarket. |
 
+![Cathedral, church, hospital, school, library and fire station](../img/buildings-civic.jpg)
+
+*Civic buildings: cathedral, church, hospital, school, library and fire station.*
+
 What a building is for decides what hangs on its front. A residential building gets window air conditioners, planters, a fire escape and balconies. A commercial one gets a lettered sign over its shopfront. An industrial one gets mostly blank walls, ducts up its sides and more units on the roof.
 
 ## Resize
@@ -42,6 +46,8 @@ Select a building and use Studio's Scale tool.
 - The footprint snaps to whole cells. A cell is normally 7.5 studs.
 - The building lays itself out again at the new size: more window bays, more floors, a longer roof.
 
+![One brick building at four sizes](../img/buildings-resize.jpg)
+
 Civic buildings do the same. A larger parking lot gets more stalls, and a larger park gets more trees.
 
 ## Join buildings
@@ -51,6 +57,8 @@ Buildings of the tiled kind join when they overlap or touch. Stack one on a roof
 ## Color themes
 
 A building takes its wall colors from a theme: red brick, terracotta, sandstone, ochre, oxblood, moss, seafoam, powder blue, limestone, whitewash, slate or charcoal. The default, Random, lets the building's seed pick. Pin a theme in the [Building Designer](./building-designer.md).
+
+![The same apartment block in six color themes](../img/buildings-themes.jpg)
 
 ## Your own styles
 

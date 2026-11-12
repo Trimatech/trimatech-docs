@@ -6,6 +6,8 @@ description: Lighting presets and one control per effect, each change an undo st
 
 Press **Lighting** on the toolbar. The dock changes the place's Lighting service and its effects directly.
 
+<video src={require("./img/lighting-presets.mp4").default} poster={require("./img/lighting-presets-poster.jpg").default} autoPlay loop muted playsInline controls style={{ width: "100%", borderRadius: 8 }} />
+
 ## Presets
 
 A preset is laid over the lighting the place had when the dock opened.
@@ -20,6 +22,16 @@ A preset is laid over the lighting the place had when the dock opened.
 - Misty morning
 - Cinematic
 - Miniature
+
+| Golden hour | Golden clear | Cinematic |
+| :-: | :-: | :-: |
+| ![Golden hour](./img/look-golden.jpg) | ![Golden clear](./img/look-golden-clear.jpg) | ![Cinematic](./img/look-cinematic.jpg) |
+
+| Overcast | Night |
+| :-: | :-: |
+| ![Overcast](./img/look-overcast.jpg) | ![Night](./img/look-night.jpg) |
+
+*One view of a generated city under five of the presets.*
 
 ## Sections
 

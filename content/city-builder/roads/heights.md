@@ -24,6 +24,8 @@ Steep roads are allowed. The plugin warns about a steep grade and builds it anyw
 
 A road far enough above the ground stands on a deck with piers. You do not pick a bridge tool. Draw with **Hold** or **Slope** across a dip, or raise the road with **X**, and the deck appears where the ground falls away.
 
+![A two-lane road crossing a river on a short bridge deck](../img/roads-water-bridge.jpg)
+
 **Bridge** in the Draw options picks the bridge type for the road, and **Bridge color** its paint. **Guardrail** sets the railing a deck gets.
 
 With **Bridge water** on, a road drawn across water climbs to a bridge deck and comes back down by itself. With it off, the road is refused until you raise it with Level.
@@ -32,9 +34,13 @@ With **Bridge water** on, a road drawn across water climbs to a bridge deck and 
 
 A road far enough below the ground bores a tunnel. On terrain the plugin cuts the bore, lines the walls and builds a portal that fits the hillside at each end. The quickest way to make one is to draw with **Hold** straight into a hill.
 
+![A four-lane road entering a tunnel through a grass hill](../img/roads-tunnel.jpg)
+
 ## Roads over roads
 
 Two roads at different levels cross without making a junction. Draw the first road, press **X**, and draw the second across it. The upper road gets a deck over the lower one and returns to the ground past it.
+
+![A road on a deck with piers passing over a four-lane road](../img/roads-overpass.jpg)
 
 For a full interchange with ramps, use a premade one from the [Junctions](./junctions.md) tool.
 

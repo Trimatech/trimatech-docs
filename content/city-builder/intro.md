@@ -12,7 +12,14 @@ City Builder is a Roblox Studio plugin for making cities. You can draw one road 
 
 [Get City Builder on the Creator Store](https://create.roblox.com/store/asset/136382184501618).
 
-![A generated city with towers, courtyard blocks, a river and an arch bridge](./img/city-hero.jpg)
+<video src={require("./img/hero-orbit.mp4").default} poster={require("./img/hero-orbit-poster.jpg").default} autoPlay loop muted playsInline controls style={{ width: "100%", borderRadius: 8 }} />
+
+*A generated city: 35 blocks with a river, a coast and roundabouts where the avenues cross.*
+
+| Roads | Buildings | Cities |
+| :-: | :-: | :-: |
+| ![Roads on terrain with an overpass, a tunnel, a roundabout and a river bridge](./img/roads-network.jpg) | ![A row of buildings from glass towers down to houses](./img/buildings-lineup.jpg) | ![Tallinn's Old Town built from its map](./img/tallinn-aerial.jpg) |
+| Draw roads that bridge, tunnel and join by themselves. | Place buildings that lay themselves out at any size. | Generate a city from a real map or from a seed. |
 
 ## What is in it
 
@@ -26,6 +33,12 @@ The plugin adds one toolbar with these buttons.
 | **Inspect Buildings** | Hover a placed building to see and change the piece in each cell. |
 | **Lighting** | Lighting presets and one section per effect: sun, atmosphere, clouds, color grading. |
 | **Spawn Car** | Puts every drivable car on the ground in front of the camera. Press Play and walk up to one to drive. |
+
+## At street level
+
+<video src={require("./img/street-drive.mp4").default} poster={require("./img/street-drive-poster.jpg").default} autoPlay loop muted playsInline controls style={{ width: "100%", borderRadius: 8 }} />
+
+*The same city from the road. Every street, crosswalk, signal and building here was generated.*
 
 ## Where to start
 

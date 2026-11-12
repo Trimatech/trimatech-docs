@@ -18,6 +18,10 @@ This page takes about five minutes. Start from an empty Baseplate place.
 
 A card in the corner of the viewport lists the keys the running tool answers to.
 
+<video src={require("./img/draw-roads.mp4").default} poster={require("./img/draw-roads-poster.jpg").default} autoPlay loop muted playsInline controls style={{ width: "100%", borderRadius: 8 }} />
+
+*Five roads drawn one after another. The junction, its crosswalks and its signals appear when the second road crosses the first.*
+
 ## 2. Place a building
 
 1. Pick the **Buildings** tile.
@@ -25,6 +29,10 @@ A card in the corner of the viewport lists the keys the running tool answers to.
 3. Click beside your road to place it. Each click places another one, in a new color.
 4. Press **Stop placing**.
 5. Select the building and drag a face with Studio's Scale tool. The building adds window bays and floors to fill the new size.
+
+![One building at four sizes, from two storeys to seven](./img/buildings-resize.jpg)
+
+*One building at four sizes. Nothing is stretched: each size is laid out again from the same pieces.*
 
 ## 3. Generate a city
 
@@ -34,6 +42,8 @@ A card in the corner of the viewport lists the keys the running tool answers to.
 4. Press **Generate city**. The dock shows progress and an estimate of the time left.
 
 When the build ends you have streets, lots, buildings, trees and street lamps. Undo removes the whole city in one step.
+
+![A generated city seen from above the river](./img/city-hero.jpg)
 
 ## Next
 

@@ -6,6 +6,10 @@ description: Find a place on the map, pick an area, load its streets and buildin
 
 The City Generator builds a city in three steps: pick a place, pick an area, build. Set **Source** to **Real place** at the top of the dock.
 
+<video src={require("../img/tallinn-orbit.mp4").default} poster={require("../img/tallinn-orbit-poster.jpg").default} autoPlay loop muted playsInline controls style={{ width: "100%", borderRadius: 8 }} />
+
+*Tallinn's Old Town, 520 metres across, built from its map with the Realistic bundle.*
+
 ## Step 1: Select place
 
 Find the place one of three ways.
@@ -50,6 +54,10 @@ The generator works in this order.
 4. Lays the ground and builds the roads.
 5. Stands a building on each lot, sized to the lot and to the storeys the map gives.
 6. Plants trees, fills parks and woods, and lines the streets with lamps.
+
+![The built Tallinn seen from straight above, its streets and blocks matching the map](../img/tallinn-plan.jpg)
+
+*The same build from above. Streets, block shapes and building outlines come from the map.*
 
 ## Scale
 

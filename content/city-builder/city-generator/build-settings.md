@@ -35,6 +35,14 @@ A generated layout has **Land shape** here instead. See [generated layouts](./ge
 | **Facade** | Simple shapes that follow outlines, with repeating windows that look flat close up. | Skylines and background blocks. |
 | **Graybox** | Plain blocks. The quickest build. | Blocking out a map and test builds. |
 
+<video src={require("../img/change-buildings.mp4").default} poster={require("../img/change-buildings-poster.jpg").default} autoPlay loop muted playsInline controls style={{ width: "100%", borderRadius: 8 }} />
+
+| Bundle | Facade | Graybox |
+| :-: | :-: | :-: |
+| ![Detailed buildings](../img/mode-bundle.jpg) | ![Simple shapes with window panels](../img/mode-facade.jpg) | ![Plain blocks](../img/mode-graybox.jpg) |
+
+*One layout built three ways. The roads, lots and seeds are the same in all three.*
+
 In every mode the [bundle](./bundles.md) still picks building types, plants, street furniture and lot bases.
 
 | Setting | What it does |
@@ -47,6 +55,10 @@ In every mode the [bundle](./bundles.md) still picks building types, plants, str
 | **Max count** | Lots past this many, counted out from the middle, stay empty. |
 | **Max stories** | Caps building height. Kit models keep their own height. |
 | **Game stops** | On, ten stop buildings stand near the middle of the city: two gas stations, two garages, a car wash, a paint shop, a police station, a pharmacy, a hardware store and a supermarket. See [using a city in your game](../game-integration.md#game-stops). |
+
+![A gas station stop with its canopy, pumps and price sign on a street corner](../img/stop-gas-station.jpg)
+
+*A gas station from **Game stops**, with its driveways cut into the curb.*
 
 ### Change buildings
 
@@ -81,6 +93,12 @@ Roads built as meshes have to be uploaded before the place is saved. See [mesh r
 | **Preview walls** | Shows the wall in the world as you set it. The preview is never saved. |
 
 **Lay walls** lays the wall on a city already built, and **Remove walls** takes it away.
+
+![A small city on its block of ground with a wall around the edge](../img/walls-city.jpg)
+
+| Quarantine wall | Shipping containers |
+| :-: | :-: |
+| ![Concrete panels with a hazard band, razor wire and floodlights](../img/walls-quarantine.jpg) | ![Stacked shipping containers in mixed colors](../img/walls-containers.jpg) |
 
 ## Optional details
 

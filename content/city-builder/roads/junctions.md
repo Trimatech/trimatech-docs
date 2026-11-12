@@ -6,10 +6,17 @@ description: Lay premade crossroads, roundabouts and highway interchanges, and s
 
 Any two roads that meet make a junction on their own. The **Junctions** tool is for the ones that take many roads to draw: roundabouts, gyratories and highway interchanges.
 
-| | | | |
-| :-: | :-: | :-: | :-: |
-| ![](../img/crossroadsSignals.png) | ![](../img/singleLane.png) | ![](../img/diamond.png) | ![](../img/cloverleaf.png) |
-| Signalized crossroads | Single-lane roundabout | Diamond interchange | Cloverleaf |
+| Signalized crossroads | Single-lane roundabout |
+| :-: | :-: |
+| ![A signalized crossroads of a four-lane road and a two-lane street](../img/junction-crossroads.jpg) | ![A single-lane roundabout with four arms](../img/junction-roundabout.jpg) |
+
+| Diamond interchange | Roundabout interchange |
+| :-: | :-: |
+| ![A highway on a deck over a street, with four ramps](../img/junction-diamond.jpg) | ![A highway on a deck over a roundabout](../img/junction-roundabout-interchange.jpg) |
+
+![A cloverleaf interchange with four loops](../img/junction-cloverleaf.jpg)
+
+*A cloverleaf. One click lays all of it: the highway, the road it crosses, four loops and four outer ramps.*
 
 ## Lay a junction
 
