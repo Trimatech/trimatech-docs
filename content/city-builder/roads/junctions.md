@@ -24,6 +24,10 @@ Any two roads that meet make a junction on their own. The **Junctions** tool is 
 2. Pick a junction from the list and change its settings.
 3. Click to place it.
 
+<img src={require("../img/dock-junctions.png").default} alt="The Junctions settings card for a single-lane roundabout, with rows for the roads meeting, the road types, the diameter and the ring lanes" width="380" />
+
+*The settings of a single-lane roundabout. Each junction in the list has its own rows.*
+
 Where you point decides what happens.
 
 - On open ground the junction is laid whole. **X** or **R** turns it 5 degrees forward, **Z** or **Shift+R** back.

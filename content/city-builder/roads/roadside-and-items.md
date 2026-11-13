@@ -17,7 +17,9 @@ A side of a road has four things you can set: its **Edge**, a **Guardrail**, **L
 The tool has two modes.
 
 - **Select.** Click a side of a road to pick it, or drag along it to pick a stretch. What that stretch holds shows in the dock, and you change it there. Hold **Shift** to add to the pick.
-- **Paint.** Set the rows first, then click every side that should get them.
+- **Paint.** Pick what to set under **Change**, pick its value in the row below, then click every side that should get it.
+
+<img src={require("../img/dock-roadside.png").default} alt="The Roadside settings card in Paint mode, with Change set to Guardrail and Guardrail set to Steel guardrail" width="380" />
 
 | Curb lanes | Guardrails |
 | :-: | :-: |
@@ -30,6 +32,8 @@ Guardrails, walls and curb paint close up around bends. Each piece runs on until
 ## Add items
 
 Pick **Add items**, pick the item, and click the road. Clicking a placed item removes it.
+
+<img src={require("../img/dock-add-items.png").default} alt="The Add items settings card with Add set to Bus stop and Stop set to Bay with shelter" width="380" />
 
 | Item | Where to click | Result |
 | --- | --- | --- |

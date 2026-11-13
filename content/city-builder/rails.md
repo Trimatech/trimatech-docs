@@ -15,6 +15,8 @@ The **Rails** tile draws railways. The gestures are the ones the Roads tool uses
 3. Click the next end. Drag to bend the track.
 4. Keep clicking to continue the chain. Press **Esc** to end it.
 
+<img src={require("./img/dock-rails.png").default} alt="The City Builder dock with the Rails tile picked, its Draw, Edit and Remove actions, and the Straight tracks, Height and Level rows" width="380" />
+
 **Straight tracks** decides what a plain click lays: straight tracks when on, flowing curves when off. Press **C** to switch it. Hold still before releasing to reverse it for one track.
 
 Ends snap to the ends of existing tracks. A track gets concrete sleepers, fasteners and ballast. An end that joins nothing gets a buffer stop. Where a track meets a surface road, the plugin lays crossing panels and a pair of crossing signals.

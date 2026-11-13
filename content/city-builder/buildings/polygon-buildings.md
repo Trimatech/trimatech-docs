@@ -18,6 +18,8 @@ A polygon building stands on any outline you draw, convex or not. It borrows its
 4. Click the corners on the ground.
 5. Click the first corner again, or press **Enter** or **Space**, to build it.
 
+<img src={require("../img/dock-polygon.png").default} alt="The Polygon building tile with the Style and Stories rows and the shelves the style is picked from" width="380" />
+
 **Backspace** takes back a corner. **Esc** clears the outline. The longest side gets the door.
 
 The **Style** list also holds parks, parking lots and gardens. Those fill the outline instead of standing a building on it. A parking lot drawn beside a road gets a driveway onto it.

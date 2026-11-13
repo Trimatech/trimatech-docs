@@ -13,6 +13,10 @@ description: Install City Builder from the Creator Store and allow the map reque
 
 Press **City Builder** to open the main dock. Each button opens its own dock, and Studio remembers where you left them.
 
+<img src={require("./img/dock-tools.png").default} alt="The City Builder dock with the Roads, Rails, Buildings, Polygon building and Inspect tiles, and the road actions under them" width="380" />
+
+*The main dock. The tiles pick a tool, and the button at the top starts it.*
+
 ## Permissions
 
 Most of the plugin works offline. Two things ask Studio for permission.

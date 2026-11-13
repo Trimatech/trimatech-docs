@@ -6,6 +6,8 @@ description: Move and bend roads, set lane, sidewalk and island widths, round co
 
 Pick **Edit** under **Action**. Roads drawn by hand and roads of a generated city edit the same way.
 
+<img src={require("../img/dock-edit.png").default} alt="The Edit settings card with the Height, Hug ground, Level and Bridge water rows" width="380" />
+
 ## Move and bend
 
 - Drag a junction to move it. Every road that meets there follows.

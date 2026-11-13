@@ -10,7 +10,11 @@ Two tools change a building after it is placed. The Building Designer changes th
 
 Press **Building Designer** on the toolbar and select a placed building. The pencil on a catalog tile does both steps at once.
 
+<img src={require("../img/dock-designer-model.png").default} alt="The Building Designer with a corner store block loaded as the active building" width="380" />
+
 ### Building settings
+
+<img src={require("../img/dock-designer-settings.png").default} alt="The Building settings section with the Piece set, Roof, Slab color, Randomize and Color theme rows" width="380" />
 
 - **Piece set** picks the set of walls, windows and doors the building draws from.
 - **Color theme** pins a theme. The swatches under it show the tones the building bakes with.
@@ -26,9 +30,13 @@ Press **Building Designer** on the toolbar and select a placed building. The pen
 
 The designer lists the surfaces the building is made of, biggest first. Give each one a material and a color. You can pick Roblox's own materials or any MaterialVariant installed in the place. The choices survive re-bakes and travel with a style. **Reset all materials and colors** goes back to the set's look.
 
+<img src={require("../img/dock-designer-materials.png").default} alt="The Materials and colors section listing four surfaces, each with a Material and a Color row" width="380" />
+
 ### Styles
 
 What you change is saved as a style. The plugin's own entries never change, so your first edit saves a copy, and later edits go into that copy.
+
+<img src={require("../img/dock-designer-style.png").default} alt="The Style section with the Save my edits to the style checkbox, a copy name and the Save as new style button" width="380" />
 
 The **Style** section renames, copies and deletes styles. Turn off **Save my edits to the style** for a building that should change alone.
 
@@ -64,3 +72,5 @@ Buildings placed before cell editing existed need a refresh first. Load the buil
 | **Copy in ServerStorage**, **Copy in ReplicatedStorage** | One shared `CityBuilderGenerators` folder. Buildings re-bake without the plugin and in a running game. |
 
 **Move existing buildings** moves every building in the place onto the option you picked.
+
+<img src={require("../img/dock-generator-code.png").default} alt="Advanced settings with Generator code set to In the plugin and the Move existing buildings button" width="380" />

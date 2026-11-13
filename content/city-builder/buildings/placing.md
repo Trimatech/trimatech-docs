@@ -6,6 +6,8 @@ description: Pick a building from the shelves, place it, resize it, and join bui
 
 The **Buildings** tile holds the catalog. Buildings are grouped on shelves by what they are for, and the search box at the top finds one by name.
 
+<img src={require("../img/dock-buildings.png").default} alt="The Buildings tile with the search box and the Skyscrapers and Modular sets shelves" width="380" />
+
 ![Eleven catalog buildings in a row, from glass towers through apartment blocks to houses](../img/buildings-lineup.jpg)
 
 ## Place a building

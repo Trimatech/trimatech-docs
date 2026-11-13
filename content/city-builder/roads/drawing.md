@@ -16,6 +16,10 @@ The **Roads** tile of the City Builder dock holds every road tool. **Action** pi
 | **Add items** | Puts crosswalks, bus stops, signs and driveways on a road. |
 | **Remove** | Deletes the segment you click. |
 
+<img src={require("../img/dock-draw.png").default} alt="The Draw settings card with the Road, Guardrail, Corners, Height, Level and Bridge rows" width="380" />
+
+*The card for **Draw**. Every row has an explainer behind its question mark.*
+
 ![Roads on terrain: an overpass on piers, a tunnel through a hill, a roundabout and a bridge over a river](../img/roads-network.jpg)
 
 ## Draw a road
