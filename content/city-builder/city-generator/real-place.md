@@ -59,6 +59,12 @@ The generator works in this order.
 
 *The same build from above. Streets, block shapes and building outlines come from the map.*
 
+## Freeways
+
+Mapped freeways keep each direction as its own road without sidewalks. Slip roads join their carriageway. Freeways pass other roads in open trenches or on bridge decks, and stacked freeway ways stay at separate heights through interchanges.
+
+A freeway keeps its slope through bends and slip-road junctions. Sharp corners remain level.
+
 ## Scale
 
 A city is built at 280 mm per stud, about 3.57 studs per metre. This matches the building kits and the drivable cars. A saved city keeps its own scale.
