@@ -6,6 +6,8 @@ description: Draw railway tracks with the same gestures as roads, with sleepers,
 
 The **Rails** tile draws railways. The gestures are the ones the Roads tool uses.
 
+![A railway that crosses a street, bends, and ends at buffer stops, with a short siding beside it](./img/rails-overview.jpg)
+
 ## Draw a track
 
 1. Pick the **Rails** tile and start the rail builder.
@@ -16,6 +18,8 @@ The **Rails** tile draws railways. The gestures are the ones the Roads tool uses
 **Straight tracks** decides what a plain click lays: straight tracks when on, flowing curves when off. Press **C** to switch it. Hold still before releasing to reverse it for one track.
 
 Ends snap to the ends of existing tracks. A track gets concrete sleepers, fasteners and ballast. An end that joins nothing gets a buffer stop. Where a track meets a surface road, the plugin lays crossing panels and a pair of crossing signals.
+
+![A level crossing with crossing signals on both sides of the street and buffer stops on the tracks behind](./img/rails-crossing.jpg)
 
 ## Height
 

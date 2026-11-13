@@ -31,6 +31,14 @@ Each corner of a junction has two dots. The compass dot rounds the curb. The foo
 
 A corner radius that does not fit is not refused. The corner takes the nearest radius that does fit.
 
+<video src={require("../img/edit-corners.mp4").default} poster={require("../img/edit-corners-poster.jpg").default} autoPlay loop muted playsInline controls style={{ width: "100%", borderRadius: 8 }} />
+
+| Before | After |
+| :-: | :-: |
+| ![A crossroads with tight corners and four rounded dead ends](../img/edit-before.jpg) | ![The same crossroads with wide corners, a turning circle on one arm and a flat end on another](../img/edit-after.jpg) |
+
+*One crossroads before and after three edits. The corners got a wider curb radius, the far arm ends in a **Turning circle**, and the right arm ends **Open**.*
+
 ## Remove a road
 
 Pick **Remove** and click a segment. On Terrain and part ground the plugin puts the ground back the way it was before the road.

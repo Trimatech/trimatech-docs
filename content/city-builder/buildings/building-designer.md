@@ -18,6 +18,10 @@ Press **Building Designer** on the toolbar and select a placed building. The pen
 - **Stories**, **Seed**, **Slab color**, **Rooftop units** and the other rows each have an inline explainer.
 - **Randomize** rolls a new seed and theme as one undo step.
 
+![One house three times, with a shed roof, a gable roof and the hip roof of its piece set](../img/designer-roofs.jpg)
+
+*One house with **Roof** set to **Shed**, to **Gable**, and to the set's own roof.*
+
 ### Materials and colors
 
 The designer lists the surfaces the building is made of, biggest first. Give each one a material and a color. You can pick Roblox's own materials or any MaterialVariant installed in the place. The choices survive re-bakes and travel with a style. **Reset all materials and colors** goes back to the set's look.
@@ -37,6 +41,10 @@ A style shows up in three places: on its entry's shelf in the City Builder dock,
 3. Every building on that set re-bakes when its pieces change.
 
 **Duplicate with a new seed** places a copy with a fresh seed, which is the fast way to grow a row of similar houses.
+
+![Four copies of one corner store block with different wall colors, shop signs and ground floors](../img/designer-seeds.jpg)
+
+*One building with four seeds. The seed picks the theme, the shop sign and the ground floor.*
 
 ## Inspect
 

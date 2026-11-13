@@ -22,6 +22,10 @@ Select anything inside the city, or the city's folder. The City Generator shows 
 
 A button appears once a setting in its group differs from what the city was built with. Each is one undo step.
 
+<video src={require("../img/change-buildings.mp4").default} poster={require("../img/change-buildings-poster.jpg").default} autoPlay loop muted playsInline controls style={{ width: "100%", borderRadius: 8 }} />
+
+***Change buildings** on one city: Graybox, then Facade, then Bundle.*
+
 ## Edit by hand
 
 A generated city is made of the same things you place by hand.
