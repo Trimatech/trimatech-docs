@@ -35,6 +35,8 @@ A preset is laid over the lighting the place had when the dock opened.
 
 ## Sections
 
+<img src={require("./img/dock-lighting.png").default} alt="The Lighting dock with the Preset list, the Reset button and the Sun and moon section with its sliders" width="380" />
+
 Below the presets, each section drives one thing:
 
 - time of day and latitude

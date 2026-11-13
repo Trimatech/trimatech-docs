@@ -29,6 +29,10 @@ Point at a road and dots appear on it. Each dot sets one thing when you drag it.
 | Tilt | Pink | The banking of a race track. Hold **Shift** to tilt the whole road. |
 | Flag disc | Violet | How a dead end finishes. |
 
+![A crossroads in the Edit tool with white compass dots and sand footprints dots at its corners, blue car dots on one arm, and a card that reads Curb radius 48](../img/edit-dots.jpg)
+
+*The dots around a crossroads. The white compass dot under the mouse says what it sets, and the blue car dots sit across the road pointed at.*
+
 Each corner of a junction has two dots. The compass dot rounds the curb. The footprints dot sets how wide the sidewalk is around that corner, so you can carry the pavement up to a building's corner. The sidewalk shows as it will be laid while you drag.
 
 A corner radius that does not fit is not refused. The corner takes the nearest radius that does fit.

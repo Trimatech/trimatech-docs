@@ -60,6 +60,10 @@ Pick the **Inspect** tile, or press **Inspect Buildings** on the toolbar, and pr
 
 Hover a placed building and rest the mouse on a cell. A card opens that names the piece in that cell, and the highlight follows the wall. Change the piece from the card, for example a window for a door.
 
+![A wall cell of four windows highlighted in blue, with a card above it that names the piece and lists Ornaments, Randomize this cell, Pick a piece, Change this floor's set, Punch a hole here, the theme and Reroll the whole building](../img/inspect-card.jpg)
+
+*The card for one cell. **Pick a piece** swaps the piece, and **Punch a hole here** cuts the cell out.*
+
 Buildings placed before cell editing existed need a refresh first. Load the building in the designer and press **Update building generator**.
 
 ## Generator code

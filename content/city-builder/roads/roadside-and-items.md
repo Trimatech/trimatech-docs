@@ -44,6 +44,10 @@ Pick **Add items**, pick the item, and click the road. Clicking a placed item re
 
 The left picture above has a bus stop with **Bay with shelter**. The curb steps back into the sidewalk to make the pocket.
 
+![Three houses beside a street with a pedestrian fence, where two driveways drop the curb and break the fence](../img/side-driveways.jpg)
+
+*Two driveways. Each drops the curb and opens the fence. The far side of the street has a **Grass verge** instead of a sidewalk.*
+
 Crosswalks that a junction laid by itself can be removed the same way. A removed one stays outlined in gray, and a click puts it back.
 
 Junction control, corners and dead ends are also under **Add items**. They are covered in [junctions](./junctions.md#change-how-a-junction-is-controlled).
