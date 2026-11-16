@@ -62,6 +62,8 @@ Pick **Upgrade**, then pick the new type under **Road**. Point at a segment to p
 
 Under **Road settings**, **Style** picks Realistic, Cartoony or Low detail. The style sets the materials and decides whether crosswalks, signals and island trees are drawn. The rows below it set the colors and materials of each part: road, sidewalks, curbs, islands and markings.
 
+**Markings** on Realistic is **Regional**: the roads are painted the way the bundle's sign pack country paints them. That sets the center line's color and pattern on two-lane and wider roads, which edge lines are yellow, how long the lane dashes are, and the crosswalk pattern. With the sign pack on **Automatic**, a generated city follows its map's country, so Oslo gets yellow center lines and Stockholm white ones. Roads you draw yourself get **Classic** until the bundle names a sign pack. Pick another marking style to paint the same everywhere.
+
 A style change is not built until you apply it. **Apply to all roads** builds every road again with the new settings at once.
 
 ## Mesh roads
