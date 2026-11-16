@@ -50,7 +50,7 @@ Pick **Add items**, then the junction control item, and click a junction.
 
 | Option | Result |
 | --- | --- |
-| **Automatic** | The road types decide. |
+| **Automatic** | The road types decide. A narrower side street that meets a road running straight through gets a give-way sign. |
 | **Traffic signals** | Lights on every arm. |
 | **Stop signs**, **Yield signs** | Signs on the minor arms. |
 | **Uncontrolled** | No lights, signs or stop lines. |
