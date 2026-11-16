@@ -52,6 +52,14 @@ Crosswalks that a junction laid by itself can be removed the same way. A removed
 
 Junction control, corners and dead ends are also under **Add items**. They are covered in [junctions](./junctions.md#change-how-a-junction-is-controlled).
 
+## Road signs
+
+**Sign** lists about 60 kinds: stop and yield, bans, mandatory turns, warnings, and service signs such as parking, bus stop and gas station. **Speed limit (by road type)** shows the speed for the road the sign stands beside. It is 30 km/h on a side street, 50 on a 2- or 3-lane street, 70 on a 4-lane road and 110 on a 6-lane road, or the nearest value the country posts. **Speed limit 20** to **Speed limit 130** pick a value. A country without that value shows its nearest one.
+
+What a sign looks like comes from the bundle's **Sign pack**, set in the bundle's Road tab. There are 17 country and region packs and a **Simple** set for cartoony cities. A city the City Generator builds from a real place takes the pack of that place's country when the pack is **Automatic**. Drawn roads use the European signs. Some countries have no sign of a kind. The UK has no priority road, for example. A sign of that kind shows the European one, so a sign you place always appears.
+
+A bundle model in a sign slot keeps its own look. Packs only change the plugin's own signs.
+
 ## Street lights
 
 Lights placed along a road start switched off and carry the `CityLight` tag. See [using a city in your game](../game-integration.md#lights) for the code that turns them on.
