@@ -24,7 +24,9 @@ The plate uses as few parts as it can. Flat ground is one part per 2048 studs, s
 
 A road deep enough under a hill bores a tunnel, the same as on Terrain. The hill stays over the bore and steps up to it at each headwall.
 
-A city built on Part ground digs its rivers, lakes and sea into the plate and fills them with blue, see-through water parts. You walk into the water rather than on it, down to the bed. Roads drawn across it later still bridge it. A plate made in the Roads tool has no water.
+Where the natural ground is level, everything a city raises on it stands as a step: a lot's pad level with its sidewalk is a flat part with its side showing, not a slope. Only a rise deeper than the plate's slabs (4 studs) gets a bank.
+
+A city built on Part ground lays its rivers, lakes and sea as flat blue parts on the plate. Nothing is dug, so a flat city stays flat. Roads drawn across the water later still bridge it. A plate made in the Roads tool has no water.
 
 Use it when your game does not use Terrain, or when you want the low-poly look.
 
