@@ -76,6 +76,7 @@ Roads built as meshes have to be uploaded before the place is saved. See [mesh r
 | --- | --- |
 | **Parked cars** | On, cars stand in the curbside parking bays, picked from the bundle's list. Turn it off for a game with its own traffic. |
 | **Courtyard props** | On, apartment blocks get waste containers behind the sidewalk and transformer kiosks in their courtyards. |
+| **Road details** | On, the roads get manholes down the lanes, patched and worn asphalt, and utility covers in the sidewalks. Off, the roads stay clean. |
 
 **Change props** lays the plants and props again on a finished city.
 

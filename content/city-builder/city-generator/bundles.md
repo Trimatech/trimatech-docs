@@ -45,6 +45,10 @@ A zone with nothing in it borrows from the next density, then from the next zone
 
 Street furniture goes in slots, such as bench, trash can and electrical box. Each slot picks among its entries by their odds. A model you add stands with its pivot's LookVector as its front. Add an Attachment named Ground where it touches the ground.
 
+Every bundle can also take the City Props pack's fire hydrants, mailbox, newspaper stands, planters, wooden utility pole and dumpster from a slot's **Add** list. Realistic places all of them except the dumpster. Utility poles line one side of every local street, and of the bigger streets in about a third of the neighborhoods. Each pole carries three power lines, two low-voltage lines and two telephone and cable lines to the next. The pack's two traffic signals and its glass bus shelter are in the Road tab, under **Add from the City Props pack**.
+
+Some of Realistic's trees are kept to parks and woods: the big beech and the redwoods grow only where there is room for their crowns, shrunk a little where a lot or a road is near. Stumps and large boulders lie in parks and woods, fallen trees only in woods.
+
 Street lights, bus stops, traffic signals and road signs stand on the roads, so they are in the Road tab. The Roads tool takes its items from the same bundle.
 
 **Sign pack** in the Road tab picks the faces of the plugin's road signs. **Automatic** uses the country of the place a city is built from, and European signs elsewhere. The Realistic bundle is Automatic. Cartoony and Low Detail use the **Simple** set. On a road style whose **Markings** is **Regional**, as Realistic's is, the sign pack also picks the road paint: the US pack paints double yellow center lines, the Europe pack white dashed ones. A generated city also puts a speed limit sign at the start of each long road where it meets a road of another type, showing that road's speed. A bundle with an empty speed limit slot gets none.
