@@ -18,8 +18,8 @@ Above the build button the dock shows an estimate: how many buildings and parts 
 
 | Setting | Options |
 | --- | --- |
-| **Ground** | **Terrain** paints voxel terrain over the whole area, with water where the map or the layout has it. **Parts** lays one plate under a flat city, or blocks and wedges under hills, and digs no water. Parts build faster and can be moved with the city. |
-| **Land** | **Flat**, **Hills** from noise, or **Real**, which reads the place's real elevation. Real needs Terrain ground and a real place. |
+| **Ground** | The same three kinds as the road tools' [ground](../roads/ground.md). **Terrain (carve and fill)** paints voxel terrain over the whole area, with water where the map or the layout has it. **Part ground** lays one plate under a flat city, or blocks and wedges under hills, and digs no water. It builds faster and moves with the city. **On the surface (baseplate)** lays no ground at all: the city stands flat at its build height and whatever is already there shows between the lots. It is the fastest build. |
+| **Land** | **Flat**, **Hills** from noise, or **Real**, which reads the place's real elevation. Real needs Terrain ground and a real place. On the surface is always flat. |
 | **Hill height**, **Hill spacing** | How far the hills rise and about how far apart they are. |
 | **Exaggerate** | Multiplies real elevation differences. 1 keeps the map's scale. |
 

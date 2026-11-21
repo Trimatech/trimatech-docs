@@ -10,7 +10,7 @@ This page takes about five minutes. Start from an empty Baseplate place.
 
 1. Press **City Builder** on the toolbar to open the main dock.
 2. Pick the **Roads** tile. Under **Action**, pick **Draw**.
-3. Under **Ground**, pick **On the surface (baseplate)**. The road will lie on the baseplate and reshape nothing.
+3. Under **Terrain**, set **Ground** to **On the surface (baseplate)**. The road will lie on the baseplate and reshape nothing.
 4. Click on the baseplate to start the road. Click again to end a straight stretch.
 5. Hold the mouse button and drag on the next click to bend that stretch into a curve.
 6. Click on the side of the road you just drew. The new road meets it in a junction, with crosswalks and lane arrows.

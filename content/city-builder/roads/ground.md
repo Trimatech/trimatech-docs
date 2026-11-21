@@ -4,7 +4,7 @@ sidebar_position: 3
 description: Choose whether roads carve terrain, reshape a plate of parts, or lie on a baseplate.
 ---
 
-Roads need ground to lie on. **Ground** under Road settings picks one of three kinds for the place's road network.
+Roads need ground to lie on. The **Terrain** section of the Roads tool picks one of three kinds for the place's road network under **Ground**, before the first road. After that it shows the kind the roads were started on, so every tool that draws, edits or removes roads works on the same ground.
 
 ## Terrain
 
@@ -42,4 +42,12 @@ Roads lie on whatever is under them, such as a baseplate, and nothing is reshape
 | Hills with no Terrain in the place | Part ground |
 | A flat map, or the fastest edits | On the surface |
 
-The City Generator has the same choice under **Terrain > Ground** in its build step, and builds its roads on the ground it lays.
+The City Generator has the same three choices under **Terrain > Ground** in its build step, and builds its roads on the ground it lays. Each city keeps its own ground: a road drawn into a Part ground city reshapes its plate, and a road drawn into a city built On the surface reshapes nothing.
+
+## Keeping the ground up
+
+Once roads are built, the Terrain section also holds the ground's upkeep. It is hidden when every road lies on the surface, since nothing is reshaped.
+
+- **Shape ground for N road edits** shapes the ground that recent edits left.
+- **Manual ground** makes road edits leave the ground alone until you shape it, which makes them much faster.
+- **Shape ground across map** lays the ground again under every road. It is slow on a big map.
