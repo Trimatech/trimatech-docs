@@ -20,7 +20,11 @@ Ground under paving is painted as Ground material instead of Grass, because terr
 
 A square plate of parts that roads reshape the same way they reshape terrain. Set **Plate size** and **Hill height** in the dock.
 
-Flat ground merges into a few large parts. Hills are triangles 32 studs across, and the plugin splits a triangle further only where it would miss the graded ground or stand over a road. Part ground has no water.
+The plate uses as few parts as it can. Flat ground is one part per 2048 studs, so a flat plate with level roads on it is a single part. Hills are triangles up to 64 studs across, split only where they would miss the graded ground or stand over a road. A road's banks are long strips beside it.
+
+A road deep enough under a hill bores a tunnel, the same as on Terrain. The hill stays over the bore and steps up to it at each headwall.
+
+A city built on Part ground digs its rivers, lakes and sea into the plate and fills them with blue, see-through water parts. You walk into the water rather than on it, down to the bed. Roads drawn across it later still bridge it. A plate made in the Roads tool has no water.
 
 Use it when your game does not use Terrain, or when you want the low-poly look.
 
@@ -38,8 +42,8 @@ Roads lie on whatever is under them, such as a baseplate, and nothing is reshape
 
 | You want | Pick |
 | --- | --- |
-| Hills, cuts, tunnels and rivers | Terrain |
-| Hills with no Terrain in the place | Part ground |
+| Hills, cuts, tunnels and rivers you can swim in | Terrain |
+| Hills, cuts, tunnels and water with no Terrain in the place | Part ground |
 | A flat map, or the fastest edits | On the surface |
 
 The City Generator has the same three choices under **Terrain > Ground** in its build step, and builds its roads on the ground it lays. Each city keeps its own ground: a road drawn into a Part ground city reshapes its plate, and a road drawn into a city built On the surface reshapes nothing.

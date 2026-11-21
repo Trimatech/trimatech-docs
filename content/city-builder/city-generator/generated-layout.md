@@ -35,7 +35,7 @@ The whole layout is one step, **Lay out city**. The map in the dock redraws on e
 | **Old town** | The side streets around the middle blocks are walkways closed to traffic, and those blocks hold mid-rise shops and apartments instead of towers. |
 | **Roundabouts where avenues cross** | Each crossing of two avenues becomes a two-lane roundabout. The four blocks around it lose their corner lots. |
 
-Rivers and seas are dug as water on Terrain ground. Part ground and On the surface leave a river as a green strip and the shore dry.
+Rivers and seas are dug as water on Terrain and Part ground. On the surface leaves a river as a green strip and the shore dry.
 
 | From above | With a coast |
 | :-: | :-: |
