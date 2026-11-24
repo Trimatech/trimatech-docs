@@ -45,9 +45,9 @@ Two roads drawn over each other merge into one. The plugin does not refuse an ov
 **Road** picks what you draw.
 
 - Walkway
-- 1 lane, 2 lanes, 3 lanes, 4 lanes, 6 lanes
+- 1 lane, 2 lanes, 3 lanes, 4 lanes, 6 lanes, 8 lanes
 - 2-lane side street
-- 2-lane, 4-lane and 6-lane boulevards, which have a planted island down the middle
+- 2-lane, 4-lane, 6-lane and 8-lane boulevards, which have a planted island down the middle
 - Race track and Pit lane, covered in [race tracks](./race-tracks.md)
 
 **One-way traffic** sets the direction of the lanes. Hold **Shift** while drawing to use the road type under the cursor, which is the fast way to carry on an existing street.
