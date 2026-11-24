@@ -56,6 +56,18 @@ Pick **Add items**, then the junction control item, and click a junction.
 | **Uncontrolled** | No lights, signs or stop lines. |
 | **Roundabout** | A circle with an island and yield signs, if the approaches have room. |
 
+## Lane markings
+
+Every junction works out where each lane goes and marks its roads to match. Nothing needs setting.
+
+- **Arrows** show what each lane may do. If the road ahead has fewer lanes, the spare lanes turn instead, right turns first.
+- **Lines through the junction** continue the lane lines. Where a turn enters a wider road, lines fan out so the turn can take any free lane.
+- **Hatched wedges** fill asphalt no lane uses, such as the nose between two roads that part at a shallow angle.
+- **Solid lane lines** run up to the stop line, so drivers pick a lane before the junction.
+- **A lane with nowhere to go** ends before the junction. Beside the curb it tapers away over hatching. Between a right-turn lane and the lanes going straight, it ends in a hatched wedge.
+
+Junctions only side streets meet stay unmarked, and a road that runs straight past a narrower side street keeps its own lines.
+
 ## Corners and dead ends
 
 Also under **Add items**:

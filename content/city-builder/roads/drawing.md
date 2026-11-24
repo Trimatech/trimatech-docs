@@ -52,6 +52,8 @@ Two roads drawn over each other merge into one. The plugin does not refuse an ov
 
 **One-way traffic** sets the direction of the lanes. Hold **Shift** while drawing to use the road type under the cursor, which is the fast way to carry on an existing street.
 
+**Lanes each way** shows for two-way roads of three lanes or more. It sets how many lanes run the way you draw and how many come back, such as 3 one way and 1 the other. Give a road more lanes into a busy junction than out of it, and the junction's turn lanes and arrows follow. The default shares the lanes evenly. A 3-lane road then has a shared middle lane and no center line. **Upgrade** with this set lays existing roads with that split, counted the way each was drawn. Left on the default, Upgrade keeps each road's own split.
+
 The City Generator lays a map's streets from this same list, so a road you draw into a generated city matches its streets.
 
 ## Change a road's type

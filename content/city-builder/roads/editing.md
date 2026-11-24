@@ -45,6 +45,12 @@ A corner radius that does not fit is not refused. The corner takes the nearest r
 
 *One crossroads before and after three edits. The corners got a wider curb radius, the far arm ends in a **Turning circle**, and the right arm ends **Open**.*
 
+## Lanes each way
+
+Point at a two-way road of three lanes or more, and **Lanes each way** shows under the Edit settings. A yellow arrow on the road shows the way it was drawn. Pick how many lanes follow the arrow and how many come back. The road is laid again with its center line moved, and the junctions at its ends mark their lanes to match. One change is one undo step.
+
+Where two roads with different splits meet, the center line eases across over about 40 studs for each lane it moves.
+
 ## Remove a road
 
 Pick **Remove** and click a segment. On Terrain and part ground the plugin puts the ground back the way it was before the road.
