@@ -66,6 +66,24 @@ Under **Road settings**, **Style** picks Realistic, Cartoony or Low detail. The 
 
 A style change is not built until you apply it. **Apply to all roads** builds every road again with the new settings at once.
 
+## Lane width
+
+**Lane width**, under **Style**, sets how wide every traffic lane in the place is. The presets follow regional standards:
+
+| Preset | Studs | Lane |
+| --- | --- | --- |
+| Old town | 10.5 | about 3.0 m |
+| Japan | 11.5 | about 3.25 m |
+| Europe | 12.5 | 3.5 m |
+| USA / Canada / UK | 13 | 12 ft, 3.65 m |
+| Wide | 13.5 | 3.75 m, as on the German Autobahn |
+
+**Custom** takes any width from 9 to 18 studs in half-stud steps. Places made before this setting existed are at 13 studs.
+
+Draw, Upgrade, Junctions and the City Generator lay every road at its lane count times this width, so a 2-lane road in Europe is 25 studs wide. Walkways, race tracks and pit lanes keep their own widths. Island and sidewalk widths don't change either.
+
+Changing the lane width lays every road in the place again when you press **Apply to all roads**, or **Change roads** in the City Generator. A road you resized with the Edit tool keeps its proportion: 30 studs at 13-stud lanes becomes 28.85 at 12.5. A generated city's lots stay where they were, so after a big change, regenerate the city to fit its lots to the new streets.
+
 ## Mesh roads
 
 **Build with** picks whether road surfaces are built from parts or as meshes. Meshes use far fewer parts, which matters in a large city.
