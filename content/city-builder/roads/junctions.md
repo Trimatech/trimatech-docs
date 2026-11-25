@@ -62,11 +62,26 @@ Every junction works out where each lane goes and marks its roads to match. Noth
 
 - **Arrows** show what each lane may do. If the road ahead has fewer lanes, the spare lanes turn instead, right turns first.
 - **Lines through the junction** continue the lane lines. Where a turn enters a wider road, lines fan out so the turn can take any free lane.
-- **Hatched wedges** fill asphalt no lane uses, such as the nose between two roads that part at a shallow angle.
+- **Hatched wedges** fill asphalt no lane uses, such as the nose between two roads that part at a shallow angle. Hatching stops where any lane's way crosses it, and a wedge ends once the lanes either side close up to it.
+- **Hatched islands** fill the gap where two lanes side by side split up to let another lane in between, or close up again after one, as long as no lane beside the gap runs against them. An island is lined all round and starts with a blunt nose once the gap is 6 studs wide.
 - **Solid lane lines** run up to the stop line, so drivers pick a lane before the junction.
+- **Edge lines** carry on through the junction along the curb where a one-way road runs on into another, round the corner at the curb's own radius or straight across where the curbs line up.
 - **A lane with nowhere to go** ends before the junction. Beside the curb it tapers away over hatching. Between a right-turn lane and the lanes going straight, it ends in a hatched wedge.
 
 Junctions only side streets meet stay unmarked, and a road that runs straight past a narrower side street keeps its own lines.
+
+To see and change the plan, keep **Show lane paths** on under the Draw or Edit settings. Near a junction, each way through it shows as a colored wire most of a lane wide, one color for each road it comes from. The wires stay up while the pointer is anywhere over the junction, and while you drag one, the rest stay in view:
+
+- A **plus** disc sits where each lane enters the junction. Drag it onto a lane of another road to send the lane there as well.
+- A **link** disc sits at the end of each wire, in the lane it lands in. Drag it onto another lane to send the way there instead. To take that way out, Shift+click the disc, or drop it away from every lane. A lane left with no way ends before the junction.
+
+A road never gains a lane between two others on its own. If your wiring leaves a lane in the middle of a road with nothing feeding it, the lane feeding its neighbor and lined up most nearly with it fans out into it as well. Taking a way out with Shift+click or a drag is the exception: the lane it fed stays empty until you wire a lane into it again.
+
+The junction's arrows, lines and hatching follow the wiring. Each change is one undo step.
+
+A way that turns into the next road round follows the corner's curb at its lane's distance, so it never cuts across the curb. Where a corner is too tight for the turn, drag the white compass dot in that corner outward. A wider curb radius gives the junction room: the two roads beside that corner stand back as far as the curve needs, and the junction's other roads keep their ends. The dot goes up to a radius of 120, as far as the roads are long enough to hold the curve.
+
+Where a junction's box is long, as where a side road bends in at a slant, its zebra crossings and stop lines move in along the straight curbs to stand by the corners, and the road's lines carry on up to them.
 
 ## Corners and dead ends
 

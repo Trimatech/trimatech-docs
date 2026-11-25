@@ -22,11 +22,14 @@ Point at a road and dots appear on it. Each dot sets one thing when you drag it.
 
 | Dot | Color | Sets |
 | --- | --- | --- |
-| Car | Blue | The width of the carriageway. |
+| Car | Blue | The width of the carriageway. Its lanes share the width. |
 | Footprints | Sand | The width of the sidewalk. |
 | Leaf | Green | The width of the island. Hold **Shift** to set it along the whole road. |
 | Compass | White | The curb radius of a corner. |
 | Tilt | Pink | The banking of a race track. Hold **Shift** to tilt the whole road. |
+| Arrows | Yellow | Where the center line stands, and so how many lanes run each way. |
+| Chevrons | White | A painted gore between two lanes. Hold **Shift** to set it along the whole road. |
+| Left-right arrows | Teal | Where the road meets a junction: centered, or with one curb lined up with the road across. |
 | Flag disc | Violet | How a dead end finishes. |
 
 ![A crossroads in the Edit tool with white compass dots and sand footprints dots at its corners, blue car dots on one arm, and a card that reads Curb radius 48](../img/edit-dots.jpg)
@@ -47,9 +50,23 @@ A corner radius that does not fit is not refused. The corner takes the nearest r
 
 ## Lanes each way
 
-Point at a two-way road of three lanes or more, and **Lanes each way** shows under the Edit settings. A yellow arrow on the road shows the way it was drawn. Pick how many lanes follow the arrow and how many come back. The road is laid again with its center line moved, and the junctions at its ends mark their lanes to match. One change is one undo step.
+A two-way road of three lanes or more has a yellow dot on its center line. Drag it across the road and the center line moves with it, from one lane line to the next, giving one way more lanes than the other. Drag it back to the middle to share the lanes evenly again. The junctions at the road's ends mark their lanes to match. One drag is one undo step.
 
 Where two roads with different splits meet, the center line eases across over about 40 studs for each lane it moves.
+
+## Gores between lanes
+
+A road of two lanes or more has a white chevrons dot on each lane line. Drag one across its line to open a painted gore there: two solid lines with chevrons between them. The lanes keep their width, and the road widens by the gore, half on each side.
+
+Once a road has a gore, its line shows a dot at each of five stations along the road. Drag each to taper the gore, such as opening it from nothing to 16 studs on the way into a junction, where one lane parts from the others. Hold **Shift** to set the gore's width along the whole road. Drag every station shut to take the gore away. A road has one gore.
+
+The junction's arrows and lane wiring stay in the lanes either side of the gore. Inside the junction the gore carries on between the same two lanes, as far as they part or until they meet again. The car dot still sets the lanes' own width.
+
+## Line up a curb through a junction
+
+Where the focused road meets a junction of three roads or more, a teal dot with left-right arrows sits on it near the junction. Drag it across the road to move where the road meets the junction. It snaps to the middle, and to lining either curb up with the road across the junction. That lets a wider road, such as one with a gore, keep one curb straight into a narrower road while the extra width goes to the other side.
+
+The road bends over from its drawn line to meet the junction off center, and the junction's lanes, lines and curbs follow. Roads you draw always meet a junction in the middle.
 
 ## Remove a road
 
