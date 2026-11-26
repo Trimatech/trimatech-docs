@@ -9,11 +9,11 @@ The **Roads** tile of the City Builder dock holds every road tool. **Action** pi
 | Action | What it does |
 | --- | --- |
 | **Draw** | Lays new roads. |
-| **Junctions** | Lays a premade junction whole. See [junctions](./junctions.md). |
+| **Junctions** | Lays a premade junction or a whole race track, and sets how a junction is controlled. See [junctions](./junctions.md). |
 | **Edit** | Moves and bends roads and junctions, and sets widths and corners. See [editing roads](./editing.md). |
 | **Upgrade** | Lays a road again as another road type. |
 | **Roadside** | Changes one side of a road: edge, guardrail, lights, curb lane. See [roadside and road items](./roadside-and-items.md). |
-| **Add items** | Puts crosswalks, bus stops, signs and driveways on a road. |
+| **Details** | Puts crosswalks, bus stops, signs and driveways on a road. |
 | **Remove** | Deletes the segment you click. |
 
 <img src={require("../img/dock-draw.png").default} alt="The Draw settings card with the Road, Guardrail, Corners, Height, Level and Bridge rows" width="380" />
@@ -36,7 +36,7 @@ The **Roads** tile of the City Builder dock holds every road tool. **Action** pi
 
 ## Join roads
 
-Roads snap to the ends and sides of other roads. Start or end a road on another one and the plugin builds a junction there, with crosswalks, stop lines and lane arrows. The road types decide whether the junction gets traffic signals. You can change that afterwards with **Add items**.
+Roads snap to the ends and sides of other roads. Start or end a road on another one and the plugin builds a junction there, with crosswalks, stop lines and lane arrows. The road types decide whether the junction gets traffic signals. You can change that afterwards with **Junctions**, in its **Control** mode.
 
 Two roads drawn over each other merge into one. The plugin does not refuse an overlap.
 

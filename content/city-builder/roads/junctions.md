@@ -46,7 +46,7 @@ What the tool lays is ordinary roads. Edit them afterwards like any other.
 
 ## Change how a junction is controlled
 
-Pick **Add items**, then the junction control item, and click a junction.
+Pick **Junctions**, set **Click to** to **Control**, pick a **Type / control** and click a junction.
 
 | Option | Result |
 | --- | --- |
@@ -85,7 +85,7 @@ Where a junction's box is long, as where a side road bends in at a slant, its ze
 
 ## Corners and dead ends
 
-Also under **Add items**:
+Both are changed with **Edit**:
 
-- The corner item sets a junction's curbs. **Sweeping curve** is a wide bend that needs room. The other options set a fixed radius.
-- The end item sets how a dead end finishes. **Rounded curb** closes it, **Open** cuts it flat so a later road can carry on from it, and **Turning circle** widens it into a cul-de-sac.
+- Drag the white compass dot inside a corner to set its curb radius, or into the corner to make it square.
+- Click the violet flag disc past a dead end to pick how it finishes. **Rounded curb** closes it, **Open** cuts it flat so a later road can carry on from it, and **Turning circle** widens it into a cul-de-sac. The rotate disc beside it angles an open cut.

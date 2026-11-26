@@ -30,7 +30,7 @@ A button appears once a setting in its group differs from what the city was buil
 
 A generated city is made of the same things you place by hand.
 
-- Its streets are ordinary roads. The Roads tool's **Edit**, **Upgrade**, **Roadside** and **Add items** all work on them.
+- Its streets are ordinary roads. The Roads tool's **Edit**, **Upgrade**, **Roadside** and **Details** all work on them.
 - Its buildings are ordinary buildings. Move, resize or restyle them, or open one in the Building Designer.
 - A **Hole** model cuts a city building the same way it cuts any other.
 

@@ -4,11 +4,11 @@ sidebar_position: 6
 description: Guardrails, street lights, curb lanes, crosswalks, bus stops, signs and driveways.
 ---
 
-Two tools dress a road after it is drawn. **Roadside** changes a whole side of a road. **Add items** puts single things on it.
+Two tools dress a road after it is drawn. **Roadside** changes a whole side of a road. **Details** puts single things on it.
 
 ![A street with parking bays and street lights on both sides, a crosswalk and a speed limit sign](../img/side-street.jpg)
 
-*Parking bays and lights from **Roadside**. The crosswalk and the sign are from **Add items**.*
+*Parking bays and lights from **Roadside**. The crosswalk and the sign are from **Details**.*
 
 ## Roadside
 
@@ -29,15 +29,15 @@ The tool has two modes.
 
 Guardrails, walls and curb paint close up around bends. Each piece runs on until its outside corner meets the next one's, so no wedge of ground shows between them.
 
-## Add items
+## Details
 
-Pick **Add items**, pick the item, and click the road. Clicking a placed item removes it.
+Pick **Details**, pick the item's button, and click the road. Clicking a placed item removes it. The **Remove** button removes any of them: it outlines the placed item nearest the cursor in red, whatever its kind.
 
-<img src={require("../img/dock-add-items.png").default} alt="The Add items settings card with Add set to Bus stop and Stop set to Bay with shelter" width="380" />
+<img src={require("../img/dock-add-items.png").default} alt="The Details settings card with Bus stop picked and Stop set to Bay with shelter" width="380" />
 
 | Item | Where to click | Result |
 | --- | --- | --- |
-| Crosswalk | A road between junctions | A zebra across it, with dropped curbs. |
+| Crosswalk | A road between junctions | A zebra across it, with dropped curbs. One that would reach into a junction is refused. |
 | Bus stop | The side of a road | **Sign only**, **Shelter**, or **Bay with shelter**, which cuts a pocket into the sidewalk. |
 | Sign | The side of a road | A sign on the sidewalk, facing the traffic on that side. |
 | Driveway | The curb in front of a building or parking lot | A dropped curb with asphalt across the sidewalk. |
@@ -50,7 +50,7 @@ The left picture above has a bus stop with **Bay with shelter**. The curb steps 
 
 Crosswalks that a junction laid by itself can be removed the same way. A removed one stays outlined in gray, and a click puts it back.
 
-Junction control, corners and dead ends are also under **Add items**. They are covered in [junctions](./junctions.md#change-how-a-junction-is-controlled).
+Junction control is under **Junctions**, and corners and dead ends are changed with **Edit**. Both are covered in [junctions](./junctions.md#change-how-a-junction-is-controlled). The race start and sector lines are covered in [race tracks](./race-tracks.md#start-line-and-sectors).
 
 ## Road signs
 

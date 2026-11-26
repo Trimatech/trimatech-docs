@@ -10,9 +10,9 @@ A race track is a road of the **Race track** type. It joins the rest of the road
 
 ## Lay a whole track
 
-1. Pick **Add items**, then the track layout item.
+1. Pick **Junctions** and set **Click to** to **Race track**.
 2. Pick a **Layout**: Oval, Tri-oval, Kidney, Club circuit, Technical or Grand Prix.
-3. Click open ground. The outline shows where the track goes, and the dot marks its start line.
+3. Click open ground. The outline shows where the track goes, and the dot marks its start line. **Turn**, or **X** and **Z** in the viewport, turns it first.
 
 The layout comes with its start line, grid, start lights, curbs, tire walls, braking boards and marshal posts. A layout that would cross other roads is refused. Reshape its roads afterwards with **Edit**.
 
@@ -20,12 +20,13 @@ You can also draw a track by hand. Pick **Race track** under **Road** and draw i
 
 ## Banking
 
-- For the whole track, pick the banking item under **Add items**, set **Banking (degrees)** and click the track. The tightest corners take the full angle and gentler ones less, eased in and out of each bend. 0 lays it flat.
-- By hand, pick **Edit** and drag a pink tilt dot on the track's edge up or down. Hold **Shift** to tilt the whole road.
+Pick **Edit** and point at the track. Its settings card sets **Banking (degrees)** for the whole track: the tightest corners take the full angle and gentler ones less, eased in and out of each bend. 0 lays it flat.
+
+To bank one spot by hand, drag a pink tilt dot on the track's edge up or down. Hold **Shift** to tilt the whole road.
 
 ## Start line and sectors
 
-Both are items under **Add items**. Click a track to place one and click it again to remove it.
+Both are items in the **Details** tool. Click a track to place one and click it again to remove it.
 
 ![The start line with its gantry, grid slots, guardrails and braking boards](../img/race-start.jpg)
 
