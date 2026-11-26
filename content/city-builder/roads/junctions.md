@@ -51,10 +51,14 @@ Pick **Junctions**, set **Click to** to **Control**, pick a **Type / control** a
 | Option | Result |
 | --- | --- |
 | **Automatic** | The road types decide. A narrower side street that meets a road running straight through gets a give-way sign. |
-| **Traffic signals** | Lights on every arm. |
-| **Stop signs**, **Yield signs** | Signs on the minor arms. |
-| **Uncontrolled** | No lights, signs or stop lines. |
-| **Roundabout** | A circle with an island and yield signs, if the approaches have room. |
+| **Traffic signals** | Lights and a stop line on every arm. |
+| **Stop signs**, **Yield signs** | Signs on the minor arms, with a solid stop line or a broken yield line. |
+| **Uncontrolled** | No lights, signs or lines. |
+| **Roundabout** | A circle with an island, and yield signs and yield lines on the arms, if the approaches have room. |
+
+The line across an arm always matches its sign or signal. An arm with neither gets no line, so a crossroads of side streets has none. A stop line stands before the arm's crosswalk. A yield line stands at the edge of the junction, past the crosswalk when there is room between them. With no crosswalk, either line stands at the junction's edge.
+
+To turn off one arm's crosswalk or line, use **Details** → **Remove**, or click the violet disc on that arm in **Edit**. A removed crosswalk takes its gap with it: the stop line moves up to the junction's edge, and the lanes through the junction start there too.
 
 ## Lane markings
 
@@ -64,7 +68,8 @@ Every junction works out where each lane goes and marks its roads to match. Noth
 - **Lines through the junction** continue the lane lines. Where a turn enters a wider road, lines fan out so the turn can take any free lane.
 - **Hatched wedges** fill asphalt no lane uses, such as the nose between two roads that part at a shallow angle. Hatching stops where any lane's way crosses it, and a wedge ends once the lanes either side close up to it.
 - **Hatched islands** fill the gap where two lanes side by side split up to let another lane in between, or close up again after one, as long as no lane beside the gap runs against them. An island is lined all round and starts with a blunt nose once the gap is 6 studs wide.
-- **Solid lane lines** run up to the stop line, so drivers pick a lane before the junction.
+- **Solid lane lines** run up to the stop or yield line, so drivers pick a lane before the junction.
+- **A road's own hatched gores** each carry on into the junction at the width the road paints them. Where nothing lies across the arm, no crosswalk and no line, each pair is one gore, its edge lines meeting and its chevrons evenly spaced across the edge of the junction. A crosswalk or a line between them closes each one a little short of it.
 - **Edge lines** carry on through the junction along the curb where a one-way road runs on into another, round the corner at the curb's own radius or straight across where the curbs line up.
 - **A lane with nowhere to go** ends before the junction. Beside the curb it tapers away over hatching. Between a right-turn lane and the lanes going straight, it ends in a hatched wedge.
 

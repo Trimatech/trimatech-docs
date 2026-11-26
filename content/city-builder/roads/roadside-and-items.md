@@ -48,7 +48,7 @@ The left picture above has a bus stop with **Bay with shelter**. The curb steps 
 
 *Two driveways. Each drops the curb and opens the fence. The far side of the street has a **Grass verge** instead of a sidewalk.*
 
-Crosswalks that a junction laid by itself can be removed the same way. A removed one stays outlined in gray, and a click puts it back.
+Crosswalks that a junction laid by itself can be removed the same way. A removed one stays outlined in gray, and a click puts it back. **Remove** also takes a junction's stop and yield lines. A removed line stays outlined in gray while **Remove** is picked, and a click on the outline puts it back. Removing a crosswalk keeps the arm's line but moves it up to the junction's edge.
 
 Junction control is under **Junctions**, and corners and dead ends are changed with **Edit**. Both are covered in [junctions](./junctions.md#change-how-a-junction-is-controlled). The race start and sector lines are covered in [race tracks](./race-tracks.md#start-line-and-sectors).
 

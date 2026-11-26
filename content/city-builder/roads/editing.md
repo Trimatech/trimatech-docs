@@ -31,6 +31,7 @@ Point at a road and dots appear on it. Each dot sets one thing when you drag it.
 | Chevrons | White | A painted gore between two lanes. Hold **Shift** to set it along the whole road. |
 | Left-right arrows | Teal | Where the road meets a junction: centered, or with one curb lined up with the road across. |
 | Flag disc | Violet | How a dead end finishes. |
+| Walking figure disc | Violet | A junction arm's crosswalk and stop or yield line. Click it and pick one to turn it off or back on. |
 
 ![A crossroads in the Edit tool with white compass dots and sand footprints dots at its corners, blue car dots on one arm, and a card that reads Curb radius 48](../img/edit-dots.jpg)
 
