@@ -75,7 +75,7 @@ Every junction works out where each lane goes and marks its roads to match. Noth
 
 Junctions only side streets meet stay unmarked, and a road that runs straight past a narrower side street keeps its own lines.
 
-To see and change the plan, keep **Show lane paths** on under the Draw or Edit settings. Near a junction, each way through it shows as a colored wire most of a lane wide, one color for each road it comes from. The wires stay up while the pointer is anywhere over the junction, and while you drag one, the rest stay in view:
+To see and change the plan, keep **Show lane paths** on under Draw settings, or **Lane paths** under **Visual indicators** in Edit settings. Near a junction, each way through it shows as a colored wire most of a lane wide, one color for each road it comes from. The wires stay up while the pointer is anywhere over the junction, and while you drag one, the rest stay in view:
 
 - A **plus** disc sits where each lane enters the junction. Drag it onto a lane of another road to send the lane there as well.
 - A **link** disc sits at the end of each wire, in the lane it lands in. Drag it onto another lane to send the way there instead. To take that way out, Shift+click the disc, or drop it away from every lane. A lane left with no way ends before the junction.
