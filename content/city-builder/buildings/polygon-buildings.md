@@ -48,9 +48,15 @@ A **Hole** model subtracts its box from the buildings it touches. Place one on a
 
 *The red box is the Hole model. The building re-bakes around it and lines the passage with walls.*
 
-- On a detailed building, the cells the hole covers are left out. A hole that reaches deep inside is lined with walls and a ceiling.
-- On a facade or graybox building, the opening is cut exactly where the box stands.
+What the building does depends on where the box stands.
+
+- **A hole through an outside wall, above the ground floor.** The storeys it crosses stand on a smaller outline. They get new walls along the cut from the same style, with corner pieces where the cut turns. The storey under the cut keeps its cap row along the edge and gets a roof terrace. A hole through the top storey takes the roof with it, so the roof follows the smaller outline. Cut a corner off the top floors and the building steps down there.
+- **A balcony-sized hole in a wall.** This works the same way. The hole's back wall gets wall pieces, the storey below gives it a ledge and a low parapet, and the storey above gets a slab over it.
+- **A passage or tunnel.** A hole across the ground floor, or one inside the outline, leaves out the cells it covers. A hole that reaches deep inside is lined with walls and a ceiling.
+- On a facade building, the walls step back around the hole the same way, with facade on its sides. On a graybox building the opening is cut exactly where the box stands.
 - Move, resize or delete the hole and the building closes up or opens to match.
+
+The sides of a hole move to the nearest joint between wall pieces, at most half a piece, so the new walls line up with the storeys under them. Some styles use windows three storeys tall for their middle floors, Brick Shopfront among them. If a hole cuts through only one or two storeys, those windows don't fit, so the new walls get the style's plain one-storey pieces.
 
 Use a hole for a gateway to a courtyard or a street-level passage. Generated cities do this themselves: where a block's buildings close in its courtyard, one or two of them get a passage named Tunnel.
 
