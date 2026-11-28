@@ -181,7 +181,7 @@ const config: Config = {
 					title: "Community",
 					items: [
 						{ label: "X", href: "https://x.com/MayGoRblx" },
-						{ label: "YouTube", href: "https://www.youtube.com/@TrimatechGames" },
+						{ label: "YouTube", href: "https://www.youtube.com/@MayGoRblx" },
 					],
 				},
 				{
