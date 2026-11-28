@@ -28,6 +28,8 @@ A road far enough above the ground stands on a deck with piers. You do not pick 
 
 **Bridge** in the Draw options picks the bridge type for the road, and **Bridge color** its paint. **Guardrail** sets the railing a deck gets.
 
+**Auto, by span** is the default. A road raised over land stays a deck on piers, however long it runs: over flat ground, across a dry valley or over another road. Arches, cable-stayed and suspension bridges only go up where the road crosses water. There Auto measures the span as the water plus 24 studs of each bank and picks by its length: a beam under 100 studs, an arch to 260, cable-stayed to 700, suspension past that. On a long raised road that crosses a stream, only the stream gets the bridge, and the rest of the road stays on piers. Pick a type yourself and the road builds it over land too. The [Edit](./editing.md) tool's violet bridge disc changes the type of a road you already drew.
+
 With **Bridge water** on, a road drawn across water climbs to a bridge deck and comes back down by itself. With it off, the road is refused until you raise it with Level.
 
 ## Tunnels
