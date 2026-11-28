@@ -31,6 +31,8 @@ A button appears once a setting in its group differs from what the city was buil
 A generated city is made of the same things you place by hand.
 
 - Its streets are ordinary roads. The Roads tool's **Edit**, **Upgrade**, **Roadside** and **Details** all work on them.
+- A road you draw, lay with **Junctions** or widen takes the city's trees, bushes and stumps off its asphalt and sidewalks, and its street furniture off the asphalt. Street furniture already on a sidewalk stays. Undo brings them back with the road. Removing the road later does not plant them again.
+- Buildings and their lots stay where they are. Draw around them: a road drawn through a lot runs through its building.
 - Its buildings are ordinary buildings. Move, resize or restyle them, or open one in the Building Designer.
 - A **Hole** model cuts a city building the same way it cuts any other.
 

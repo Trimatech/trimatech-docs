@@ -34,7 +34,9 @@ Where you point decides what happens.
 - On an existing junction, that junction becomes the one you picked and its roads become the arms.
 - On a road, the junction is laid across it.
 
-What the tool lays is ordinary roads. Edit them afterwards like any other.
+If the junction cannot go where you clicked, nothing is laid. The outline turns red and the status line says which of its roads was refused and why, for example an arm that would climb too steeply out of the junction.
+
+What the tool lays is ordinary roads. Edit them afterwards like any other. On a slope, the new roads stand inside the hill until the ground is shaped behind them (see [Ground](./ground.md)).
 
 ## What is in the list
 

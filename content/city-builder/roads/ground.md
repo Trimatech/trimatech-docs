@@ -52,6 +52,8 @@ The City Generator has the same three choices under **Terrain > Ground** in its 
 
 ## Keeping the ground up
 
+After a road edit, the roads are built first and the ground follows a moment later, as its own undo step named **Shape Ground Behind Roads**. The status line says **Shaping the ground behind the roads** until it is done. On a hill this can take most of a minute in a big city, and until then a road laid into a slope is still inside the hill: a roundabout dropped on a road through a hillside shows only the old road's stretch until its cutting is dug.
+
 Once roads are built, the Terrain section also holds the ground's upkeep. It is hidden when every road lies on the surface, since nothing is reshaped.
 
 - **Shape ground for N road edits** shapes the ground that recent edits left.
